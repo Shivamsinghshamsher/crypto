@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 90vh;
+}
+
+.btn{
+    margin: .5rem 0 .5rem 0;
+    background-color: #302ea3;
+    cursor : pointer;
+    position: relative;
+    overflow: hidden;
+   padding: 8px;
+   border-radius: 8px;
+}
+.btn >a{
+    color: white;
+list-style: none;
+}
+.money-input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .money-input {
+    width: 150px;
+    text-align: right;
+  }
+  
+  .money-input:focus {
+    border-color: #007bff; /* Change to your preferred focus color */
+    outline: none; /* Remove default focus outline */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
